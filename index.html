@@ -3,12 +3,76 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Propeller form</title>
+	
+	<!-- Bootstrap -->
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	<link href="C:\nikita\!github_projects\propeller-form\css\typography.css" type="text/css" rel="stylesheet" />
+
+	<!-- Typography -->
+	<link href="css/typography.css" type="text/css" rel="stylesheet" />
+
+	<link href="css/card.css" type="text/css" rel="stylesheet" />
+
+
 </head>
 <body>
-	<h1>form</h1>
+	<h1>shit</h1>
 	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti, facere!</p>
+				<!-- Text fields code, example -->
+			<div class="col-md-9">
+				<div class="component-box">
+					<!-- Text fields example -->
+					<div class="row">
+						<div class="col-md-6">
+							<div class="pmd-card pmd-z-depth pmd-card-custom-form">
+								<div class="pmd-card-body"> 
+									<!-- Regular Input -->
+									<div class="form-group pmd-textfield">
+										<label for="regular1" class="control-label">Regular Input</label>
+										<input type="text" id="regular1" class="form-control">
+										</div>
+									<!-- Password Input -->
+									<div class="form-group pmd-textfield">
+										<label for="password1" class="control-label">Password</label>
+										<input id="password1" class="form-control" type="password">
+										</div>
+									<!--Help Text Input -->
+									<div class="form-group pmd-textfield">
+										<label for="help1">Input with help text</label>
+										<input type="text" id="help1" class="form-control">
+										<p class="help-block">Help text</p>
+									</div>
+								</div>
+							</div>
+							<p class="component-desc">Basic elements</p>
+						</div>
+						<div class="col-md-6">
+							<div class="pmd-card pmd-z-depth pmd-card-custom-form">
+								<div class="pmd-card-body"> 
+									<!-- Regular Floating Input -->
+									<div class="form-group pmd-textfield pmd-textfield-floating-label">
+										<label for="regular1" class="control-label">Regular Input</label>
+										<input type="text" id="regular1" class="form-control">
+										</div>
+									<!-- Password Floating Input -->
+									<div class="form-group pmd-textfield pmd-textfield-floating-label">
+										<label for="password1" class="control-label">Password</label>
+										<input id="password1" class="form-control" type="password">
+										</div>
+									<!--Help Text Floating Input -->
+									<div class="form-group pmd-textfield pmd-textfield-floating-label">
+										<label for="help1">Input with help text</label>
+										<input type="text" id="help1" class="form-control">
+										<p class="help-block">Help text</p>
+									</div>
+								</div>
+							</div>
+							<p class="component-desc">Basic elements with floating labels</p>
+						</div>
+					</div><!-- end Text fields example -->
+
+				</div>
+			</div><!--end Text fields code, example -->
+		</section><!-- text fields end --> 
 </body>
 <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 </html>
