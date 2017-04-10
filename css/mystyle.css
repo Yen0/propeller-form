@@ -1,0 +1,16 @@
+body {
+  
+  background-color: #eee;
+}
+.pmd-textfield-focused,
+.btn-primary {
+    background-color: #ffdb4d;
+}
+
+.btn-primary:hover{
+	background-color: #f5d34c;
+}
+
+.btn {
+    color: black;
+}
